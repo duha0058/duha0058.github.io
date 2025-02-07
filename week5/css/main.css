@@ -1,0 +1,72 @@
+
+
+body{background-color: rgb(112, 87, 54);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+h1{
+    color: hsl(238, 22%, 32%);
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
+h1, h2{
+    text-decoration: underline;
+    color: beige;
+}
+
+
+.btn{
+    background-color: rgb(109, 81, 98);
+    color: aliceblue;
+    padding: 16px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 1px 1px 5px 6px rgb(165, 149, 39);
+
+}
+.btn:hover{
+    background-color: rgb(35, 67, 95);
+    color: rgb(129, 210, 160);
+}
+
+#intropara{
+    font-style: italic;
+}
+
+article h2{
+    color: rgb(124, 179, 185);
+}
+h2{
+    color: rgb(194, 201, 203);
+}
+.hobbylist{
+    color: beige;
+}
+ul li:nth-child(2n+1){
+    color: rgb(196, 130, 32);
+}
+.secondclass{
+    border: 2px solid #fff;
+}
+form{
+    background-color: rgb(173, 103, 10);
+    max-width: 700px;
+    /* margin vs padding */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+
+}
+
+input, textarea {
+    display: block;
+    margin: 5px 0;
+    padding: 5px;
+    font-size: 16px;
+    width: 100%;
+}
